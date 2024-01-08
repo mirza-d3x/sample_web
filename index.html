@@ -8,20 +8,11 @@
 
 <body>
     <h1 id="welcomeText">Welcome to our page!</h1>
+    <h2 id="subText">Try to get the action of these button</h2>
     <button id="startButton">Start</button>
     <button id="doneButton">Done</button>
 
-    <!-- <script src="script.js"></script> -->
-    <script>
-        // Attach event listeners to buttons and send messages to Flutter
-        document.getElementById('startButton').addEventListener('click', function () {
-            window.flutter.postMessage("startButtonClicked");
-        });
-
-        document.getElementById('doneButton').addEventListener('click', function () {
-            window.flutter.postMessage("doneButtonClicked");
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
