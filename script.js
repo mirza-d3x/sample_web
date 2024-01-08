@@ -1,9 +1,7 @@
-// document.getElementById('startButton').addEventListener('click', function () {
-//     document.getElementById('welcomeText').innerText = 'Start Button Clicked!';
-//     window.flutter.postMessage("startButtonClicked");
-// });
+document.getElementById('startButton').addEventListener('buttonClick', function () {
+    document.getElementById('welcomeText').innerText = 'Start Button Clicked!';
+});
 
-// document.getElementById('doneButton').addEventListener('click', function () {
-//     document.getElementById('welcomeText').innerText = 'Done Button Clicked!';
-//     window.flutter.postMessage("doneButtonClicked");
-// });
+document.getElementById('doneButton').addEventListener('buttonClick', function () {
+    document.getElementById('welcomeText').innerText = 'Done Button Clicked!';
+});
