@@ -14,14 +14,15 @@
 
     <!-- <script src="script.js"></script> -->
     <script>
-        document.getElementById('startButton').addEventListener('click', function () {
+        document.getElementById('startButton').addEventListener('buttonClick', function () {
             document.getElementById('welcomeText').innerText = 'Start Button Clicked!';
-            window.flutter.postMessage("startButtonClicked");
+            // print
+            // window.flutter.postMessage("startButtonClicked");
         });
 
-        document.getElementById('doneButton').addEventListener('click', function () {
+        document.getElementById('doneButton').addEventListener('buttonClick', function () {
             document.getElementById('welcomeText').innerText = 'Done Button Clicked!';
-            window.flutter.postMessage("doneButtonClicked");
+            // window.flutter.postMessage("doneButtonClicked");
         });
 
     </script>
